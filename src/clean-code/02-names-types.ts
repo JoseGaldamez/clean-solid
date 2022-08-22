@@ -85,7 +85,7 @@
     } */
 
     // Better
-    function getBook() {
+    function getBooks() {
         throw new Error('Function not implemented.');
     }
 
@@ -100,7 +100,7 @@
     }*/
 
     // Better
-    function getBooksFromUrl( url: string) {
+    function getBooksByUrl( url: string) {
         throw new Error('Function not implemented to get from: ' + url);
     }
     
@@ -114,7 +114,7 @@
     } */
 
     // Better
-    function getAreaCuadrado( side: number ) {
+    function getSquareArea( side: number ) {
         throw new Error('Function not implemented.' + side);
     }
 
