@@ -13,23 +13,23 @@
   }
 
   class InputEvents {
-    setFocus() {}
     getValue() {}
     isActive() {}
     removeValue() {}
+    setFocus() {}
   }
 
   //? Idea para la nueva clase InputElement
 
   class InputElement {
-    public html: HtmlElement;
     public attributes: InputAttributes;
     public events: InputEvents;
+    public html: HtmlElement;
 
     constructor(id: string, value: string, placeholder: string) {
-      this.html = new HtmlElement(id, "input");
       this.attributes = new InputAttributes(value, placeholder);
       this.events = new InputEvents();
+      this.html = new HtmlElement(id, "input");
     }
   }
 
