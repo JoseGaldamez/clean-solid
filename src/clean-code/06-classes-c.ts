@@ -94,5 +94,5 @@
 
   const userSetting = new UserSetting({ person, user, setting });
 
-  console.log(userSetting);
+  console.log({ userSetting });
 })();
