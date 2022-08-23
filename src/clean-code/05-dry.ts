@@ -25,7 +25,6 @@ class Product {
                     break;
                 default:
                     throw new Error(`${ typeof this[key]} is not supported.`);
-                    break;
             }
         }
 
